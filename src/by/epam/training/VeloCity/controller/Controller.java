@@ -1,9 +1,9 @@
-package by.epam.training.VeloCity.controller;
+package by.epam.training.velocity.controller;
 
-import by.epam.training.VeloCity.bean.Request;
-import by.epam.training.VeloCity.bean.Response;
-import by.epam.training.VeloCity.command.Command;
-import by.epam.training.VeloCity.controller.Exception.ControllerException;
+import by.epam.training.velocity.bean.Request;
+import by.epam.training.velocity.bean.Response;
+import by.epam.training.velocity.command.Command;
+import by.epam.training.velocity.controller.Exception.ControllerException;
 
 public class Controller {
     private final CommandProvider provider = new CommandProvider();

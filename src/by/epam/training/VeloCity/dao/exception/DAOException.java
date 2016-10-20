@@ -1,4 +1,4 @@
-package by.epam.training.VeloCity.dao.exception;
+package by.epam.training.velocity.dao.exception;
 
 
 public class DAOException extends Exception {

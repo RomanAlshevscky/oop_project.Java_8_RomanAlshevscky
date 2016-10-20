@@ -1,8 +1,8 @@
-package by.epam.training.VeloCity.dao.impl;
+package by.epam.training.velocity.dao.impl;
 
-import by.epam.training.VeloCity.bean.entity.Item;
-import by.epam.training.VeloCity.dao.VeloDAO;
-import by.epam.training.VeloCity.dao.exception.DAOException;
+import by.epam.training.velocity.bean.entity.Item;
+import by.epam.training.velocity.dao.VeloDAO;
+import by.epam.training.velocity.dao.exception.DAOException;
 
 import java.sql.*;
 import java.util.LinkedList;
@@ -10,7 +10,7 @@ import java.util.List;
 
 public class MySQLVeloDAO implements VeloDAO {
 
-    private static final String url = "jdbc:mysql://localhost:3306/VeloCity";
+    private static final String url = "jdbc:mysql://localhost:3306/velocity";
     private static final String user = "root";
     private static final String password = "7S8d4R5M}{";
 

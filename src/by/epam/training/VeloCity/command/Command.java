@@ -1,7 +1,7 @@
-package by.epam.training.VeloCity.command;
+package by.epam.training.velocity.command;
 
-import by.epam.training.VeloCity.bean.Request;
-import by.epam.training.VeloCity.bean.Response;
+import by.epam.training.velocity.bean.Request;
+import by.epam.training.velocity.bean.Response;
 
 public interface Command {
 

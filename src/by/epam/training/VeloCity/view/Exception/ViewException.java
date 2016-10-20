@@ -1,4 +1,4 @@
-package by.epam.training.VeloCity.view.Exception;
+package by.epam.training.velocity.view.Exception;
 
 
 public class ViewException extends Exception {

@@ -1,11 +1,11 @@
-package by.epam.training.VeloCity.service.impl;
+package by.epam.training.velocity.service.impl;
 
-import by.epam.training.VeloCity.bean.entity.CategoryReportEntity;
-import by.epam.training.VeloCity.dao.VeloDAO;
-import by.epam.training.VeloCity.dao.exception.DAOException;
-import by.epam.training.VeloCity.dao.factory.DAOFactory;
-import by.epam.training.VeloCity.service.ReportService;
-import by.epam.training.VeloCity.service.exception.ServiceException;
+import by.epam.training.velocity.bean.entity.CategoryReportEntity;
+import by.epam.training.velocity.dao.VeloDAO;
+import by.epam.training.velocity.dao.exception.DAOException;
+import by.epam.training.velocity.dao.factory.DAOFactory;
+import by.epam.training.velocity.service.ReportService;
+import by.epam.training.velocity.service.exception.ServiceException;
 
 import java.util.LinkedList;
 import java.util.List;

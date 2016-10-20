@@ -1,4 +1,4 @@
-package by.epam.training.VeloCity.controller.Exception;
+package by.epam.training.velocity.controller.Exception;
 
 public class ControllerException extends Exception {
     private static final long serialVersionUID = 1L;

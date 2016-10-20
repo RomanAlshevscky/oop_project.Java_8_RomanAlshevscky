@@ -1,11 +1,11 @@
-package by.epam.training.VeloCity.view;
+package by.epam.training.velocity.view;
 
 
-import by.epam.training.VeloCity.bean.Request;
-import by.epam.training.VeloCity.bean.Response;
-import by.epam.training.VeloCity.controller.Controller;
-import by.epam.training.VeloCity.controller.Exception.ControllerException;
-import by.epam.training.VeloCity.view.Exception.ViewException;
+import by.epam.training.velocity.bean.Request;
+import by.epam.training.velocity.bean.Response;
+import by.epam.training.velocity.controller.Controller;
+import by.epam.training.velocity.controller.Exception.ControllerException;
+import by.epam.training.velocity.view.Exception.ViewException;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 
 public class Main {
 
-    private static String shopName = "VeloCity";
+    private static String shopName = "velocity";
     private static Controller controller = new Controller();
 
     public static void main(String[] args) {

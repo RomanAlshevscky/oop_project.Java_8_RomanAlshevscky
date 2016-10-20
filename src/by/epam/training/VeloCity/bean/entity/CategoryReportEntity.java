@@ -1,4 +1,4 @@
-package by.epam.training.VeloCity.bean.entity;
+package by.epam.training.velocity.bean.entity;
 
 public class CategoryReportEntity {
     private String categoryName;

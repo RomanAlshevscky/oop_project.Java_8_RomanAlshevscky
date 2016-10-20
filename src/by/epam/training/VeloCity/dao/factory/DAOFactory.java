@@ -1,7 +1,7 @@
-package by.epam.training.VeloCity.dao.factory;
+package by.epam.training.velocity.dao.factory;
 
-import by.epam.training.VeloCity.dao.VeloDAO;
-import by.epam.training.VeloCity.dao.impl.MySQLVeloDAO;
+import by.epam.training.velocity.dao.VeloDAO;
+import by.epam.training.velocity.dao.impl.MySQLVeloDAO;
 
 /**
  * Created by User on 18.10.2016.

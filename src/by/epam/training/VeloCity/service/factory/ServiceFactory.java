@@ -1,7 +1,7 @@
-package by.epam.training.VeloCity.service.factory;
+package by.epam.training.velocity.service.factory;
 
-import by.epam.training.VeloCity.service.*;
-import by.epam.training.VeloCity.service.impl.*;
+import by.epam.training.velocity.service.*;
+import by.epam.training.velocity.service.impl.*;
 
 
 public class ServiceFactory {

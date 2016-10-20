@@ -1,12 +1,12 @@
-package by.epam.training.VeloCity.command.impl;
+package by.epam.training.velocity.command.impl;
 
-import by.epam.training.VeloCity.bean.Request;
-import by.epam.training.VeloCity.bean.Response;
-import by.epam.training.VeloCity.bean.entity.Item;
-import by.epam.training.VeloCity.command.Command;
-import by.epam.training.VeloCity.service.EditItemService;
-import by.epam.training.VeloCity.service.exception.ServiceException;
-import by.epam.training.VeloCity.service.factory.ServiceFactory;
+import by.epam.training.velocity.bean.Request;
+import by.epam.training.velocity.bean.Response;
+import by.epam.training.velocity.bean.entity.Item;
+import by.epam.training.velocity.command.Command;
+import by.epam.training.velocity.service.EditItemService;
+import by.epam.training.velocity.service.exception.ServiceException;
+import by.epam.training.velocity.service.factory.ServiceFactory;
 
 public class EditItem implements Command {
 

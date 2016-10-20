@@ -1,4 +1,4 @@
-package by.epam.training.VeloCity.bean.entity;
+package by.epam.training.velocity.bean.entity;
 
 import java.util.LinkedList;
 

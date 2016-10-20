@@ -1,7 +1,7 @@
-package by.epam.training.VeloCity.service;
+package by.epam.training.velocity.service;
 
-import by.epam.training.VeloCity.bean.entity.CategoryReportEntity;
-import by.epam.training.VeloCity.service.exception.ServiceException;
+import by.epam.training.velocity.bean.entity.CategoryReportEntity;
+import by.epam.training.velocity.service.exception.ServiceException;
 
 import java.util.List;
 

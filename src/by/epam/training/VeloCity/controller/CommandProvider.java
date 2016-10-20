@@ -1,7 +1,7 @@
-package by.epam.training.VeloCity.controller;
+package by.epam.training.velocity.controller;
 
-import by.epam.training.VeloCity.command.Command;
-import by.epam.training.VeloCity.command.impl.*;
+import by.epam.training.velocity.command.Command;
+import by.epam.training.velocity.command.impl.*;
 
 import java.util.HashMap;
 import java.util.Map;

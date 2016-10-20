@@ -1,4 +1,4 @@
-package by.epam.training.VeloCity.service.exception;
+package by.epam.training.velocity.service.exception;
 
 
 public class ServiceException extends Exception {

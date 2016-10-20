@@ -1,7 +1,7 @@
-package by.epam.training.VeloCity.dao;
+package by.epam.training.velocity.dao;
 
-import by.epam.training.VeloCity.bean.entity.Item;
-import by.epam.training.VeloCity.dao.exception.DAOException;
+import by.epam.training.velocity.bean.entity.Item;
+import by.epam.training.velocity.dao.exception.DAOException;
 
 import java.util.List;
 
