@@ -17,7 +17,8 @@ public class AddItem implements Command {
         Response response= new Response();
         try {
             String name = request.getParams().get(1);
-            int price = Integer.parseInt(request.getParams().get(2));
+            int price = Integer.parseInt(request.getParams().get(2));// вот не хотела бы я твоим Request-ом пользоваться
+            // пойди запомни, где там что лежит
             int count = Integer.parseInt(request.getParams().get(3));
 
             Item i = new Item(name, price, count);
