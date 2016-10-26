@@ -28,7 +28,9 @@ public class Report implements ReportService {
                 reports.add(report);
             }
         } catch(DAOException de){
-            throw new ServiceException(de.getMessage());
+            throw new ServiceException(de.getMessage());// и вот тыкала же носом, не делайте так, теряете stacktrace
+            // кому потом ваше исключение нужно будет?
+            // и все равно!!! бяки!!!
         }
         return reports;
     }
