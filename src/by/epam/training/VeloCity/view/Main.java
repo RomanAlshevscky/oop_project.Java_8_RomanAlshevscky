@@ -24,7 +24,8 @@ public class Main {
             String startPage = sendRequest(createRequest("RETURN_ALL_CATEGORIES"));
             System.out.print(startPage);
         } catch(ViewException ve) {
-
+// без комментариев оставим пустой catch
+            // сам себе глову пеплом посыпешь
         }
         listen();
     }
