@@ -9,7 +9,8 @@ import java.util.Map;
 public class CommandProvider {
     private Map<String, Command> commands = new HashMap<>();
 
-    CommandProvider() {
+    CommandProvider() {// public  класс с ещинственным friendly конструктором - кого троллим?
+        // что мы делаем с константными строками с коде?
         commands.put("RETURN_ALL_CATEGORIES", new ReturnAllCategories());
         commands.put("ADD_CATEGORY", new AddCategory());
         commands.put("DELETE_CATEGORY", new DeleteCategory());

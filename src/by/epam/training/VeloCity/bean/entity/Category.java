@@ -2,10 +2,10 @@ package by.epam.training.velocity.bean.entity;
 
 import java.util.LinkedList;
 
-public class Category {
+public class Category {// equals, hashCode, toString где?
 
     private String name;
-    private LinkedList<Item> itemList;
+    private LinkedList<Item> itemList;// а почему не List<Item>
 
     public Category(String name){
         this.name = name;
@@ -21,7 +21,7 @@ public class Category {
      * @param name
      * @return
      */
-    public Item getItem(String name){
+    public Item getItem(String name){// что за логика в классах-сущностях, тебе сервисов мало?
         for(Item i: itemList){
             if(i.getName() == name)
                 return i;

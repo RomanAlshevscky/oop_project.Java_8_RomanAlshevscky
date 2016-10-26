@@ -13,7 +13,8 @@ public class Controller {
 
         Command command = provider.getCommand(commandName);
 
-        if (command == null)
+        if (command == null)// 1 - где { }
+            // 2 - это ты кому исключение собрался выбросить, ты подумал, нужно оно там???
             throw new ControllerException();
         Response response = command.execute(request);
 

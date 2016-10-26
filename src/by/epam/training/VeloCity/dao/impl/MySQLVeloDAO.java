@@ -14,6 +14,10 @@ public class MySQLVeloDAO implements VeloDAO {
     private static final String user = "root";
     private static final String password = "7S8d4R5M}{";
 
+    // здравствуй, многопоточность
+    // и почему ты меня (т.е. тебя) так не людишь?
+    // объект этого класса ОДИН, методы на нем могут вызываться параллельно
+    // дальше думай сам
     private static Connection con;
     private static Statement stmt;
     private static ResultSet rs;
@@ -23,26 +27,30 @@ public class MySQLVeloDAO implements VeloDAO {
         try {
             con = DriverManager.getConnection(url, user, password);
         } catch (SQLException sqlEx) {
-            sqlEx.printStackTrace();
+            sqlEx.printStackTrace();//н-да
+            // ну нет соединения, ну не беда, тихонько напечатаю об этом в консоль и затихарюсь
+            // мало ли кто там это дао создает, может и пронесет
         }
     }
 
     @Override
     public List<String> findAllCategoriesNames() throws DAOException {
-        String query = "select name from Categories";
+        String query = "select name from Categories";// в static final строки
         List<String> result = new LinkedList<>();
         try {
             stmt = con.createStatement();
             rs = stmt.executeQuery(query);
             while (rs.next()) {
-                result.add(rs.getString("name"));
+                result.add(rs.getString("name"));// что мы делаем с константными строками?
             }
         } catch (SQLException sqlEx) {
-            sqlEx.printStackTrace();
+            sqlEx.printStackTrace();// аналогично тихушничаем
+            // работу с исключениями пропустили мимо
+            // где throw new DAOException...?
         } finally {
             try {
                 stmt.close();
-            } catch (SQLException se) { /*can't do anything */ }
+            } catch (SQLException se) { /*can't do anything */ }// logging тут - а не ничего не делаем
             try {
                 rs.close();
             } catch (SQLException se) { /*can't do anything */ }

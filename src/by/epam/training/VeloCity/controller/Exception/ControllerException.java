@@ -1,4 +1,4 @@
-package by.epam.training.velocity.controller.Exception;
+package by.epam.training.velocity.controller.Exception;// чего так испугался пакет, что стал аж с большой буквы именоваться?
 
 public class ControllerException extends Exception {
     private static final long serialVersionUID = 1L;
