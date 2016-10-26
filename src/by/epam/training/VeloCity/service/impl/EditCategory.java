@@ -9,7 +9,7 @@ import by.epam.training.velocity.service.exception.ServiceException;
 public class EditCategory implements EditCategoryService {
     @Override
     public void addCategory(String categoryName) throws ServiceException {
-        if(categoryName == null)
+        if(categoryName == null) // где { } ?
             throw new ServiceException();
         try {
             DAOFactory factory = DAOFactory.getInstance();
